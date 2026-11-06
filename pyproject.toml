@@ -1,0 +1,7 @@
+[project]
+name = "llm-server"
+version = "0.1.0"
+description = "A repository for running LLM inference"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["openai==3.41.0", "vllm==0.32.0"]
